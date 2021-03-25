@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *,
+        *::before,
+        *::after {
+            margin: 0%;
+            padding: 0;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            font-family: 'Dela Gothic One',
+                cursive;
+        }
+
+        html {
+            font-size: 65.2%;
+            height: 100%;
+        }
+
+        :root {
+            --bg-color: #2d3436;
+            --text-animation-slide-color: #dfe6e9;
+        }
+
+        .main-div {
+            width: 100vw;
+            height: 100vh;
+            background-color: var(--bg-color);
+            display: -ms-grid;
+            display: grid;
+            place-items: center;
+        }
+
+        .main-div .center {
+            width: 55vw;
+            height: 50vh;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .main-div .center .wave {
+            height: 15rem;
+            width: 0.8rem;
+            background-color: var(--text-animation-slide-color);
+            border-radius: 2rem;
+            margin: 0 1.2rem;
+            -webkit-animation: dk 1s linear infinite;
+            animation: dk 1s linear infinite;
+        }
+
+        .main-div .center .wave:nth-child(1) {
+            -webkit-animation-delay: 0.1s;
+            animation-delay: 0.1s;
+        }
+
+        .main-div .center .wave:nth-child(2) {
+            -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s;
+        }
+
+        .main-div .center .wave:nth-child(3) {
+            -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s;
+        }
+
+        .main-div .center .wave:nth-child(4) {
+            -webkit-animation-delay: 0.4s;
+            animation-delay: 0.4s;
+        }
+
+        .main-div .center .wave:nth-child(5) {
+            -webkit-animation-delay: 0.5s;
+            animation-delay: 0.5s;
+        }
+
+        .main-div .center .wave:nth-child(6) {
+            -webkit-animation-delay: 0.6s;
+            animation-delay: 0.6s;
+        }
+
+        .main-div .center .wave:nth-child(7) {
+            -webkit-animation-delay: 0.7s;
+            animation-delay: 0.7s;
+        }
+
+        .main-div .center .wave:nth-child(8) {
+            -webkit-animation-delay: 0.8s;
+            animation-delay: 0.8s;
+        }
+
+        .main-div .center .wave:nth-child(9) {
+            -webkit-animation-delay: 0.9s;
+            animation-delay: 0.9s;
+        }
+
+        .main-div .center .wave:nth-child(10) {
+            -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+        }
+
+        @-webkit-keyframes dk {
+            0% {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+            }
+
+            50% {
+                -webkit-transform: scale(0);
+                transform: scale(0);
+            }
+
+            100% {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+            }
+        }
+
+        @keyframes dk {
+            0% {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+            }
+
+            50% {
+                -webkit-transform: scale(0);
+                transform: scale(0);
+            }
+
+            100% {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+            }
+        }
+
+        .main-div .footer {
+            height: 3rem;
+            width: 100vw;
+            margin-top: auto;
+            background-color: #45006d;
+        }
+
+        .main-div .footer p {
+            text-align: center;
+            line-height: 2.8rem;
+            font-size: 1.2rem;
+        }
+
+        /*# sourceMappingURL=var.css.map */
+    </style>
+</head>
+
+<body>
+    <div class="main-div">
+        <div class="center">
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+        </div>
+        <footer class="footer">
+            <p>&copy; Copyright 2021-22 | Made in India <span>&#128153;</span></p>
+        </footer>
+    </div>
+</body>
+
+</html>
